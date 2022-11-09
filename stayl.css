@@ -1,0 +1,72 @@
+header{
+    background-color: rgb(156, 28, 170);
+    color: white;
+    padding: 2%;
+    text-align: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section div{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+p{
+    width: 100%;
+    padding: 1%;
+    display: inline-block;
+    font-size: 14PX;
+    text-align: left;
+}
+
+select{
+    width: 80%;
+    color: black;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+button{
+    width: 80px;
+    height: 60px;
+    padding: 2%;
+    margin: 2% 0 2% 0;
+    background-color: rgb(116, 4, 113);
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+button:hover{
+    background-color: #ffffff;
+    font-weight: bolder;
+    color: rgb(145, 35, 142);
+}
+
+h5{
+    color: rgb(165, 42, 157);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    section div{
+        width: 90%;
+        margin: 0 auto;
+        grid-column: 1 / span 3;
+    }
+  }

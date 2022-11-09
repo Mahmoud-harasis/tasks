@@ -9,10 +9,12 @@ function tellFortune (job_title,
 //2
 
 function calculateDogAge (age){
-  let result = (age * 7)
-  console.log(`yers dog ${result}`)
+  let result = (age * 7);
+  return result;
+  // console.log(`yers dog ${result}`)
   }
-  calculateDogAge (3);
+console.log(calculateDogAge (3));
+  // calculateDogAge (3);
 
 //3
 
