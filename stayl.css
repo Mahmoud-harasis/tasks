@@ -38,6 +38,7 @@ select{
 }
 
 button{
+    color: #ffffff;
     width: 80px;
     height: 60px;
     padding: 2%;
@@ -69,4 +70,9 @@ img{
         margin: 0 auto;
         grid-column: 1 / span 3;
     }
+  }
+
+  
+  #jjs{
+    color: #ffffff;
   }
