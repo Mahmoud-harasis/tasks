@@ -44,10 +44,10 @@ a {
 	margin: 15px 0;
 }
 
-button {
+button , #mah ,.mm {
 	border-radius: 20px;
-	border: 1px solid #FF4B2B;
-	background-color: #FF4B2B;
+	border: 1px solid #b32fd3;
+	background-color: #b32fd3;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;
@@ -162,7 +162,7 @@ input {
 .overlay {
 	background: #FF416C;
 	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
-	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #bc3bb5, #b32fd3);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 0 0;
